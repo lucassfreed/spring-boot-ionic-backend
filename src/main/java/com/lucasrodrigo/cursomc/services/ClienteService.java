@@ -68,7 +68,7 @@ public class ClienteService {
         return repo.findAll(pageRequest);
     }
 
-    public Cliente fromDTO(ClienteDTO objDto) {
+    public Cliente fromDto(ClienteDTO objDto) {
         return new Cliente(objDto.getId(), objDto.getNome(), objDto.getEmail(), null, null);
     }
 
