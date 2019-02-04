@@ -1,8 +1,6 @@
 package com.lucasrodrigo.cursomc.resorces;
 
-import com.lucasrodrigo.cursomc.domain.Categoria;
 import com.lucasrodrigo.cursomc.domain.Pedido;
-import com.lucasrodrigo.cursomc.dto.CategoriaDTO;
 import com.lucasrodrigo.cursomc.services.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
